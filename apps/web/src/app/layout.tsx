@@ -3,9 +3,13 @@ import { displayFont, sansFont } from "../lib/fonts.ts";
 import "./globals.css";
 
 export const metadata = {
-  title: "Landlords BC",
-  description: "Digital home for BC landlords.",
-  robots: { index: false, follow: false },
+  metadataBase: new URL(process.env.APP_URL ?? "http://localhost:3000"),
+  title: {
+    default: "Landlords BC",
+    template: "%s — Landlords BC",
+  },
+  description:
+    "Resources, education, community and advocacy built specifically for rental-property owners across British Columbia.",
 };
 
 export default function RootLayout({ children }: { children: ReactNode }) {

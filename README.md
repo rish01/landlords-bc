@@ -24,7 +24,7 @@ infra/terraform   VPC, ECS, RDS, Redis, S3, KMS, migrator task
 
 Pinned at kickoff (2026-09-21): **Next.js 16** (Active LTS), **better-auth 1.7.5**, **PostgreSQL 18** (not older than 16), **Node 24**.
 
-`AI_PROVIDER=none`. Public homepage IA is PR-03. Design system gallery: [`/internal/ui`](http://localhost:3000/internal/ui) (noindex, off in production unless `INTERNAL_UI=1`).
+`AI_PROVIDER=none`. Public homepage and IA: `/`. Design system gallery: [`/internal/ui`](http://localhost:3000/internal/ui) (noindex, off in production unless `INTERNAL_UI=1`).
 
 Next.js 16 uses `src/proxy.ts` in place of `middleware.ts`. Proxy never authorizes.
 

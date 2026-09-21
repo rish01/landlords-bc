@@ -14,25 +14,26 @@ const defaultLinks: FooterLink[] = [
   { href: "/membership", label: "Membership" },
   { href: "/legal/privacy", label: "Privacy" },
   { href: "/legal/terms", label: "Terms" },
-  { href: "/legal/community", label: "Community guidelines" },
+  { href: "/legal/community-guidelines", label: "Community guidelines" },
+  { href: "/contact", label: "Contact" },
+  { href: "/legal/accessibility", label: "Accessibility" },
 ];
 
 export type FooterProps = HTMLAttributes<HTMLElement> & {
   links?: FooterLink[];
   wordmark?: ReactNode;
+  children?: ReactNode;
 };
 
 export function Footer({
   links = defaultLinks,
   wordmark,
   className,
+  children,
   ...props
 }: FooterProps) {
   return (
-    <footer
-      className={cn("bg-navy-950 text-paper-1", className)}
-      {...props}
-    >
+    <footer className={cn("bg-navy-950 text-paper-1", className)} {...props}>
       <div className="mx-auto flex max-w-6xl flex-col gap-8 px-6 py-12">
         {wordmark ?? <Logo inverted />}
         <nav aria-label="Footer">
@@ -46,7 +47,8 @@ export function Footer({
             ))}
           </ul>
         </nav>
-        <p className="text-sm text-ink-400">© Landlords BC. All rights reserved.</p>
+        {children}
+        <p className="text-sm text-ink-400">© Landlords BC. Educational information, not legal advice.</p>
       </div>
     </footer>
   );

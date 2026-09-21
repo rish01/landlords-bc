@@ -10,6 +10,9 @@ const nextConfig: NextConfig = {
   ...(!process.env.VERCEL ? { output: "standalone" as const } : {}),
   outputFileTracingRoot: monorepoRoot,
   poweredByHeader: false,
+  async redirects() {
+    return [{ source: "/navigator", destination: "/guides", permanent: true }];
+  },
   transpilePackages: [
     "@lbc/ai",
     "@lbc/db",
