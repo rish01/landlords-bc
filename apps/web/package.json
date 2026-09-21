@@ -1,0 +1,37 @@
+{
+  "name": "@lbc/web",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint .",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@lbc/ai": "workspace:*",
+    "@lbc/db": "workspace:*",
+    "@lbc/domain": "workspace:*",
+    "@lbc/emails": "workspace:*",
+    "@lbc/search": "workspace:*",
+    "@lbc/ui": "workspace:*",
+    "next": "^16.3.5",
+    "pg": "^8.16.3",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "redis": "^5.8.2"
+  },
+  "devDependencies": {
+    "@lbc/config": "workspace:*",
+    "@types/node": "^24.5.2",
+    "@types/pg": "^8.15.5",
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "eslint": "^9.36.0",
+    "eslint-config-next": "^16.3.5",
+    "typescript": "^5.9.2"
+  }
+}

@@ -1,0 +1,1490 @@
+# MASTER PROMPT — BUILD A WORLD-CLASS BC LANDLORD PLATFORM
+
+## ROLE
+
+Act as a **world-class website designer, UX/UI architect, product strategist, cybersecurity-minded engineer, and membership-platform specialist**.
+
+You are designing and building a premium digital platform for **landlords and rental-property owners in British Columbia, Canada**.
+
+This is NOT supposed to look like a traditional association website.
+
+The goal is to create a platform that feels:
+
+* Modern
+* Trustworthy
+* Professional
+* Premium
+* Extremely easy to use
+* Fast
+* Secure
+* Mobile-first
+* Community-driven
+* Data-conscious
+* Built specifically for BC landlords
+
+The website should feel like a **modern technology platform combined with a professional membership organization**, rather than a government website or an outdated industry association.
+
+The domain name is already registered and will be connected to the finished website.
+
+---
+
+# 1. PRIMARY OBJECTIVE
+
+Create the leading online platform where **BC landlords can join a community, access useful resources, share experiences, understand their rights and responsibilities, document tenant-related issues, obtain educational information, and collectively communicate concerns affecting rental-property owners.**
+
+The platform should make a landlord think:
+
+> "This is the place I go when I have a rental-property problem."
+
+The platform should serve:
+
+* First-time landlords
+* Small landlords with one rental unit
+* Basement-suite landlords
+* Condo landlords
+* Owners of multiple rental properties
+* Experienced landlords
+* Property managers
+* Rental-housing professionals
+
+The website must NOT encourage harassment, retaliation, discrimination, doxxing, naming-and-shaming, or unlawful treatment of tenants.
+
+The platform should focus on:
+
+**Education + Documentation + Community + Resources + Advocacy + Professionalism**
+
+---
+
+# 2. CORE DESIGN PHILOSOPHY
+
+Follow these principles:
+
+### SIMPLICITY FIRST
+
+A landlord should understand what the organization does within approximately 5 seconds of landing on the homepage.
+
+Do not overwhelm visitors with dozens of menu items.
+
+Use a clean information architecture.
+
+Every major task should require as few clicks as reasonably possible.
+
+### PREMIUM, NOT CORPORATE-BORING
+
+Avoid the visual style of:
+
+* Government websites
+* Old professional associations
+* Generic WordPress templates
+* Real-estate listing websites
+* Cheap membership websites
+
+Instead, take inspiration from the best modern SaaS, fintech, professional-service and membership platforms.
+
+Think:
+
+**Apple-level simplicity + Stripe-level clarity + modern professional association credibility.**
+
+---
+
+# 3. BRAND POSITIONING
+
+The brand should communicate:
+
+### TRUST
+
+"We protect our members' interests and information."
+
+### COMMUNITY
+
+"You are not dealing with landlord challenges alone."
+
+### KNOWLEDGE
+
+"Know your rights, responsibilities and options."
+
+### PROFESSIONALISM
+
+"Good landlords operate professionally."
+
+### ADVOCACY
+
+"Landlords should have a constructive, informed voice."
+
+Avoid aggressive anti-tenant language.
+
+The organization should appear credible to:
+
+* Landlords
+* Government
+* Media
+* Legal professionals
+* Housing professionals
+* Municipalities
+* The general public
+
+---
+
+# 4. HOMEPAGE
+
+Create a visually exceptional homepage.
+
+## HERO SECTION
+
+Large, clean hero section with a powerful headline.
+
+Example direction:
+
+**"BC Landlords. Better Informed. Better Connected."**
+
+Supporting statement:
+
+"Resources, education, community and advocacy built specifically for rental-property owners across British Columbia."
+
+Primary CTA:
+
+**JOIN NOW**
+
+Secondary CTA:
+
+**EXPLORE RESOURCES**
+
+Include a subtle visual representing BC rental housing/property ownership.
+
+Do NOT use cheesy stock photography.
+
+Use sophisticated imagery, subtle motion, clean typography and generous whitespace.
+
+---
+
+# 5. IMMEDIATE HOMEPAGE ACTIONS
+
+Immediately below the hero, provide four large visual action cards:
+
+### I HAVE A TENANT ISSUE
+
+Help members navigate common situations and find relevant information.
+
+### I NEED A FORM OR DOCUMENT
+
+Quick access to important landlord documentation and templates.
+
+### I NEED TO UNDERSTAND THE RULES
+
+Searchable educational information about BC tenancy rules and processes.
+
+### I WANT TO JOIN THE COMMUNITY
+
+Membership and community access.
+
+These should be extremely easy to find.
+
+---
+
+# 6. "I HAVE A PROBLEM" FEATURE
+
+This should become one of the site's signature features.
+
+Create a guided **Landlord Issue Navigator**.
+
+A landlord selects:
+
+* Non-payment of rent
+* Late rent
+* Damage
+* Noise
+* Unauthorized occupants
+* Lease violations
+* Communication problems
+* Move-out issues
+* Security deposit questions
+* Repairs
+* Eviction-related questions
+* Dispute resolution
+* Other
+
+The platform then provides:
+
+1. What the issue generally involves
+2. Relevant BC rules/resources
+3. Recommended documentation
+4. Suggested next steps
+5. Relevant forms/templates
+6. Related educational content
+7. When appropriate, links to official government resources
+8. Option to save the issue privately to the member's account
+
+Clearly state that educational material is not a substitute for legal advice.
+
+---
+
+# 7. LANDLORD MEMBER DASHBOARD
+
+Create a beautiful authenticated dashboard.
+
+After logging in, members should see:
+
+## MY DASHBOARD
+
+* Membership status
+* Membership renewal date
+* Saved resources
+* Saved documents
+* My landlord issues
+* Community discussions
+* Upcoming events
+* New announcements
+* Recommended resources
+* Notifications
+
+Use a clean dashboard similar to a premium SaaS application.
+
+The dashboard must be dramatically easier to use than a traditional association member portal.
+
+---
+
+# 8. MEMBERSHIP SYSTEM
+
+Membership is a CORE feature.
+
+Build a complete membership system.
+
+Users must be able to:
+
+1. Create an account
+2. Choose membership
+3. Pay an annual membership fee
+4. Receive confirmation
+5. Access member-only content
+6. Manage their profile
+7. Update billing information
+8. Renew membership
+9. Receive renewal reminders
+10. View invoices/receipts
+11. Cancel according to the organization's membership terms
+
+Membership pricing must be configurable by administrators.
+
+Do NOT hard-code a price into the design.
+
+Allow future membership structures such as:
+
+* Individual landlord
+* Multiple-property owner
+* Property manager
+* Professional/corporate membership
+* Optional premium membership
+
+The architecture should allow additional membership levels later.
+
+---
+
+# 9. MEMBERSHIP SIGNUP EXPERIENCE
+
+Make membership signup extremely simple.
+
+Prefer a short multi-step process rather than one giant form.
+
+### STEP 1
+
+Basic information
+
+### STEP 2
+
+Property/landlord information
+
+### STEP 3
+
+Membership selection
+
+### STEP 4
+
+Payment
+
+### STEP 5
+
+Confirmation
+
+Do not ask for unnecessary personal information.
+
+Clearly explain why every sensitive piece of information is requested.
+
+---
+
+# 10. PAYMENT SYSTEM
+
+Integrate a reputable payment processor such as Stripe or another established Canadian-compatible provider.
+
+The website itself should NOT store raw credit-card information.
+
+Use secure payment-provider-hosted/tokenized payment infrastructure.
+
+Support:
+
+* Annual recurring membership
+* Automatic renewal where permitted
+* Receipts
+* Failed-payment handling
+* Renewal reminders
+* Membership expiration
+* Administrative refunds where applicable
+
+Design the system so payment information is handled by the payment processor rather than stored directly in the website database.
+
+---
+
+# 11. SECURITY IS THE HIGHEST PRIORITY
+
+This is NON-NEGOTIABLE.
+
+The website will contain potentially sensitive information.
+
+Treat security as a fundamental product requirement, not an afterthought.
+
+Implement:
+
+* HTTPS everywhere
+* Secure authentication
+* Strong password hashing
+* Secure sessions
+* Multi-factor authentication capability
+* Role-based access control
+* Least-privilege permissions
+* Database encryption where appropriate
+* Encryption in transit
+* Secure backups
+* Audit logging
+* Rate limiting
+* Brute-force protection
+* Bot protection
+* CSRF protection
+* XSS protection
+* SQL injection protection
+* Secure file uploads
+* Malware scanning for uploaded files
+* Security headers
+* Dependency vulnerability monitoring
+* Regular security updates
+* Automated backups
+* Disaster recovery procedures
+* Account recovery protections
+* Administrative access controls
+* Security monitoring and alerting
+
+Never expose member information publicly.
+
+Never expose member email addresses through public directories.
+
+Never expose private landlord/tenant dispute information to search engines.
+
+---
+
+# 12. PRIVACY-BY-DESIGN
+
+Privacy must be designed into the platform.
+
+Create:
+
+* Privacy Policy
+* Terms of Use
+* Community Guidelines
+* Data retention policy
+* Cookie policy where applicable
+* Consent management
+* Account deletion/request process
+* Data access/export process where applicable
+
+Collect the minimum information necessary.
+
+Do not collect sensitive information simply because it might be useful later.
+
+Clearly distinguish:
+
+### PUBLIC INFORMATION
+
+Information intentionally published to the community.
+
+### MEMBER-ONLY INFORMATION
+
+Information accessible only to authenticated members.
+
+### PRIVATE INFORMATION
+
+Information accessible only to the individual member and authorized administrators.
+
+### HIGHLY RESTRICTED INFORMATION
+
+Sensitive case/document information requiring additional access controls.
+
+---
+
+# 13. TENANT-RELATED CASE RECORDS
+
+Create a private feature called something like:
+
+**My Cases**
+
+or
+
+**My Rental Issues**
+
+Members can privately document an issue.
+
+Each case can include:
+
+* Case title
+* Property
+* Date
+* Issue category
+* Notes
+* Timeline
+* Uploaded documents
+* Photos
+* Correspondence
+* Important dates
+* Tasks/reminders
+* Status
+
+Example:
+
+**Case: Late Rent — Unit 204**
+
+Timeline:
+
+* June 1 — Rent due
+* June 3 — Payment not received
+* June 4 — Communication sent
+* June 7 — Payment received
+
+This should function like a lightweight private case-management system.
+
+Cases must be PRIVATE by default.
+
+---
+
+# 14. IMPORTANT COMMUNITY SAFETY RULE
+
+Do NOT create a public "bad tenant database."
+
+Do NOT allow members to publish:
+
+* Tenant names
+* Home addresses
+* Phone numbers
+* Email addresses
+* Government identification
+* Financial information
+* Private correspondence
+* Photos intended to identify a tenant
+* Allegations presented as established facts
+
+The community should have strong moderation and privacy controls.
+
+Create a reporting mechanism for inappropriate posts.
+
+---
+
+# 15. COMMUNITY DISCUSSION PLATFORM
+
+Create a modern discussion/community area.
+
+Categories could include:
+
+* General Discussion
+* Tenant Issues
+* Repairs & Maintenance
+* Notices & Documentation
+* Dispute Resolution
+* Property Management
+* New Landlords
+* Experienced Landlords
+* BC Rental Regulations
+* Municipal Issues
+* Insurance
+* Taxes
+* Contractors & Services
+* Advocacy
+* General Business
+
+Members can:
+
+* Ask questions
+* Answer questions
+* Like/helpful reactions
+* Bookmark discussions
+* Follow topics
+* Report inappropriate content
+
+Use moderation tools.
+
+---
+
+# 16. ANONYMOUS QUESTION OPTION
+
+Allow members to ask certain questions anonymously within the community.
+
+However:
+
+The system should still retain the actual member identity privately for moderation/security purposes.
+
+Anonymous does NOT mean untraceable.
+
+Make this clear in the community rules.
+
+---
+
+# 17. RESOURCE CENTRE
+
+Create a world-class searchable resource library.
+
+Categories:
+
+### LANDLORD BASICS
+
+### TENANCY AGREEMENTS
+
+### RENT & PAYMENTS
+
+### MAINTENANCE
+
+### NOTICES
+
+### MOVE-IN
+
+### MOVE-OUT
+
+### DISPUTE RESOLUTION
+
+### DOCUMENTATION
+
+### PROPERTY MANAGEMENT
+
+### INSURANCE
+
+### TAX & FINANCIAL RESOURCES
+
+### BC TENANCY RULES
+
+### MUNICIPAL RULES
+
+### ADVOCACY
+
+### PROFESSIONAL SERVICES
+
+Each resource should have:
+
+* Title
+* Short description
+* Category
+* Search keywords
+* Date updated
+* Related resources
+* Member/public access indicator
+
+---
+
+# 18. SMART SEARCH
+
+Search must be extremely good.
+
+A prominent search bar should appear throughout the website.
+
+Example:
+
+**"What are you looking for?"**
+
+Search:
+
+* Articles
+* Guides
+* Forms
+* Community discussions
+* FAQs
+* Events
+* Resources
+
+Search results should be categorized.
+
+Use filters.
+
+Make search fast.
+
+---
+
+# 19. KNOWLEDGE CENTRE
+
+Create a modern knowledge centre similar to a premium digital library.
+
+Each article should have:
+
+* Plain-language explanation
+* Key points
+* Relevant legislation/resources
+* Step-by-step information
+* Related documents
+* Related discussions
+* Last reviewed/updated date
+* Source attribution
+* Legal disclaimer where appropriate
+
+Avoid walls of text.
+
+Use:
+
+* Expandable sections
+* Checklists
+* Timelines
+* Callout boxes
+* Tables
+* Visual explanations
+
+---
+
+# 20. FORMS & DOCUMENTS
+
+Create a dedicated:
+
+**FORMS & DOCUMENTS**
+
+section.
+
+Members should be able to:
+
+* Search
+* Preview
+* Download
+* Save
+* Print
+* Find related documents
+
+Where appropriate, provide editable templates.
+
+Include clear notices about whether a document is:
+
+* Official government form
+* Organization-created template
+* Educational example
+* Third-party resource
+
+Never imply that an unofficial template is an official government document.
+
+---
+
+# 21. BC GOVERNMENT RESOURCE INTEGRATION
+
+Create a section that intelligently connects users to authoritative BC government resources.
+
+Do not attempt to replace government sources.
+
+Instead:
+
+**Explain the issue simply → provide context → direct the user to the authoritative source.**
+
+The platform should be a trusted navigation layer.
+
+---
+
+# 22. ADVOCACY CENTRE
+
+Create a sophisticated:
+
+**ADVOCACY**
+
+section.
+
+This is where members can understand:
+
+* Current rental-housing issues
+* Proposed regulatory changes
+* Legislative developments
+* Municipal policy issues
+* Industry concerns
+* Public consultations
+* Advocacy initiatives
+
+Allow members to submit concerns.
+
+Create aggregated issue reporting.
+
+Example:
+
+**"What problems are BC landlords experiencing?"**
+
+Members can anonymously submit categorized issues.
+
+Administrators can view aggregate trends.
+
+This creates useful data for future advocacy.
+
+---
+
+# 23. GRIEVANCE / ISSUE REPORTING
+
+Create a structured:
+
+**REPORT AN ISSUE**
+
+feature.
+
+Members can submit concerns regarding:
+
+* Tenancy processes
+* Regulations
+* Administrative problems
+* Municipal policies
+* Industry challenges
+* Repeated operational issues
+
+The system should categorize submissions and generate aggregate statistics.
+
+Example administrator dashboard:
+
+**Top reported landlord challenges — September 2026**
+
+1. Category A — 38%
+2. Category B — 24%
+3. Category C — 17%
+
+Do not expose individual member information.
+
+---
+
+# 24. EVENTS
+
+Create an Events section.
+
+Display:
+
+* Webinars
+* Workshops
+* Conferences
+* Community meetings
+* Educational sessions
+* Advocacy events
+
+Allow members to:
+
+* Register
+* Add to calendar
+* Receive reminders
+* View event details
+
+---
+
+# 25. NEWS
+
+Create a modern news/updates system.
+
+Categories:
+
+* BC Rental Housing
+* Government
+* Legal Updates
+* Industry News
+* Organization Updates
+* Advocacy
+* Education
+
+Every article should show:
+
+**Published / Updated**
+
+This is important because tenancy rules can change.
+
+---
+
+# 26. MEMBER DIRECTORY
+
+Potentially provide a member directory, but privacy must be carefully designed.
+
+Members should explicitly opt in.
+
+Possible fields:
+
+* Business name
+* General location
+* Type of landlord/property owner
+* Services offered, if applicable
+* Website
+* Contact method
+
+Never automatically expose:
+
+* Home address
+* Personal phone
+* Personal email
+
+---
+
+# 27. PROFESSIONAL SERVICE DIRECTORY
+
+Create a marketplace-style directory for vetted/participating professionals.
+
+Potential categories:
+
+* Lawyers
+* Accountants
+* Insurance providers
+* Property managers
+* Contractors
+* Plumbers
+* Electricians
+* Inspectors
+* Cleaning companies
+* Restoration companies
+* Real-estate professionals
+
+Businesses could eventually pay for enhanced listings.
+
+Make this architecture scalable for future revenue.
+
+---
+
+# 28. ADMINISTRATOR DASHBOARD
+
+Build a powerful but simple admin dashboard.
+
+Administrators should be able to manage:
+
+* Members
+* Memberships
+* Payments
+* Renewals
+* Users
+* Roles
+* Resources
+* Articles
+* Forms
+* Events
+* Community posts
+* Reports
+* Moderation
+* Advocacy submissions
+* Notifications
+* Email campaigns
+* Professional directory
+* Website content
+* Analytics
+
+Use role-based administration.
+
+For example:
+
+### SUPER ADMIN
+
+Full system access.
+
+### CONTENT ADMIN
+
+Articles/resources/events.
+
+### COMMUNITY MODERATOR
+
+Community and reports.
+
+### MEMBERSHIP ADMIN
+
+Membership/payment management.
+
+### ADVOCACY ADMIN
+
+Issue submissions and aggregated data.
+
+Never give every administrator access to everything.
+
+---
+
+# 29. MEMBER COMMUNICATION
+
+Create an internal notification system.
+
+Examples:
+
+"You have 30 days remaining on your membership."
+
+"New BC rental regulation update."
+
+"Your event begins tomorrow."
+
+"Your question received a new response."
+
+Allow members to control notification preferences.
+
+---
+
+# 30. EMAIL SYSTEM
+
+Build professional transactional emails:
+
+* Welcome
+* Membership confirmation
+* Payment receipt
+* Renewal reminder
+* Password reset
+* Email verification
+* New community response
+* Event reminder
+* Important organization announcement
+
+Emails must be clean, professional and mobile-friendly.
+
+---
+
+# 31. MOBILE-FIRST
+
+The website must be excellent on:
+
+* iPhone
+* Android
+* Tablet
+* Laptop
+* Desktop
+
+Do not simply shrink the desktop website.
+
+Design the mobile experience intentionally.
+
+A landlord should be able to:
+
+* Log in
+* Search resources
+* Ask a question
+* Check membership
+* Upload a document
+* Review a case
+* Register for an event
+
+from a phone.
+
+---
+
+# 32. VISUAL DESIGN
+
+Create a premium visual identity.
+
+Use:
+
+* Sophisticated typography
+* Excellent spacing
+* Strong visual hierarchy
+* Subtle animations
+* Elegant cards
+* Modern icons
+* High-quality photography
+* Clean data visualization
+* Soft shadows
+* Professional colour system
+
+Avoid:
+
+* Excessive gradients
+* Cheap-looking stock photography
+* Huge blocks of text
+* Tiny fonts
+* Clutter
+* Excessive animations
+* Outdated corporate design
+* Generic templates
+
+---
+
+# 33. COLOUR DIRECTION
+
+Explore a professional BC-inspired palette.
+
+Potential direction:
+
+* Deep navy
+* Charcoal
+* White
+* Soft neutral tones
+* One distinctive accent colour
+
+The design should feel:
+
+**Trustworthy + Canadian + Modern + Premium**
+
+Do not make the website look like a government department.
+
+---
+
+# 34. ACCESSIBILITY
+
+Build according to modern accessibility standards.
+
+Include:
+
+* Keyboard navigation
+* Proper heading hierarchy
+* Accessible forms
+* Screen-reader compatibility
+* Sufficient colour contrast
+* Visible focus states
+* Alt text
+* Accessible error messages
+* Large enough touch targets
+
+Target WCAG 2.2 AA where practical.
+
+---
+
+# 35. PERFORMANCE
+
+The site must be extremely fast.
+
+Optimize:
+
+* Images
+* JavaScript
+* CSS
+* Fonts
+* Database queries
+* API calls
+* Caching
+
+Target excellent Core Web Vitals.
+
+Avoid unnecessary third-party scripts.
+
+---
+
+# 36. SEO
+
+Build strong technical SEO.
+
+Include:
+
+* Semantic HTML
+* Structured metadata
+* Clean URLs
+* XML sitemap
+* Robots controls
+* Canonical URLs
+* Open Graph metadata
+* Schema markup where appropriate
+* Search-friendly resource pages
+
+However:
+
+**Private member content must never be indexed.**
+
+---
+
+# 37. LEGAL / COMPLIANCE
+
+Because this platform operates in British Columbia and handles membership and potentially sensitive information, build the architecture with Canadian privacy obligations in mind.
+
+The implementation should be reviewed by qualified Canadian privacy/legal professionals before launch.
+
+Include appropriate:
+
+* Privacy policy
+* Terms of service
+* Community rules
+* Consent mechanisms
+* Data retention procedures
+* Data breach response plan
+* Member rights/processes
+* Legal disclaimers
+
+Do not make unsupported claims such as "100% breach-proof."
+
+Instead, the website should be engineered to **minimize risk, prevent unauthorized access, detect incidents, and respond quickly if an incident occurs.**
+
+---
+
+# 38. SECURITY TESTING BEFORE LAUNCH
+
+Before launch, require:
+
+* Vulnerability scanning
+* Dependency scanning
+* Authentication testing
+* Authorization testing
+* Penetration testing
+* File-upload testing
+* API security testing
+* Rate-limit testing
+* Database security review
+* Privacy review
+* Backup restoration testing
+
+Do not launch until critical/high-severity vulnerabilities are addressed.
+
+---
+
+# 39. ANALYTICS
+
+Use privacy-conscious analytics.
+
+Track useful business metrics such as:
+
+* Membership registrations
+* Membership renewals
+* Resource usage
+* Search queries
+* Popular topics
+* Event registrations
+* Community engagement
+* Issue categories
+* Conversion rates
+
+Do not collect unnecessary personal information.
+
+---
+
+# 40. HOMEPAGE STRUCTURE
+
+Recommended homepage:
+
+1. Header
+2. Hero
+3. "I Have a Problem" navigator
+4. Four primary action cards
+5. Why Join
+6. Member benefits
+7. Featured resources
+8. Latest BC updates
+9. Community activity
+10. Advocacy/issues
+11. Upcoming events
+12. Testimonials
+13. Membership CTA
+14. Footer
+
+---
+
+# 41. NAVIGATION
+
+Keep the main navigation extremely simple.
+
+Recommended:
+
+**Home**
+
+**Resources**
+
+**Community**
+
+**Advocacy**
+
+**Events**
+
+**About**
+
+**Membership**
+
+And a highly visible:
+
+**LOGIN**
+
+button.
+
+Once logged in, the navigation changes to:
+
+**Dashboard**
+
+**My Cases**
+
+**Resources**
+
+**Community**
+
+**Events**
+
+**My Membership**
+
+**Profile**
+
+---
+
+# 42. MEMBERSHIP CTA
+
+Throughout the website use clear calls to action:
+
+**BECOME A MEMBER**
+
+**JOIN THE BC LANDLORD COMMUNITY**
+
+**GET MEMBER ACCESS**
+
+Do not aggressively spam users with popups.
+
+---
+
+# 43. TRUST SECTION
+
+Create a section explaining:
+
+### WHY TRUST US?
+
+Use:
+
+* Transparent governance
+* Privacy commitment
+* Professional resources
+* Clear source attribution
+* Updated information
+* Member community
+* Qualified professional partnerships
+
+Do not make unsupported claims.
+
+---
+
+# 44. COMMUNITY CULTURE
+
+The platform should promote responsible, professional landlord practices.
+
+Community guidelines should prohibit:
+
+* Harassment
+* Threats
+* Hate speech
+* Discrimination
+* Doxxing
+* Personal attacks
+* Publication of private tenant information
+* Retaliatory content
+* Fraudulent information
+* Illegal activity
+
+Encourage:
+
+* Constructive discussion
+* Evidence-based information
+* Professional conduct
+* Respectful disagreement
+* Privacy
+* Legal compliance
+
+---
+
+# 45. FUTURE AI FEATURES
+
+Design the architecture so AI features can eventually be added.
+
+Potential future features:
+
+### AI RESOURCE ASSISTANT
+
+A member asks:
+
+"I'm dealing with a tenant who hasn't paid rent. What information should I look at?"
+
+The assistant can guide them to relevant resources.
+
+It must:
+
+* Clearly distinguish information from legal advice
+* Cite the underlying source
+* Use current approved organizational content
+* Avoid hallucinating laws
+* Direct users to authoritative sources
+
+### DOCUMENT ORGANIZER
+
+AI can help categorize uploaded documents.
+
+### ISSUE SUMMARY
+
+AI can summarize a member's private case timeline.
+
+### SEARCH ASSISTANT
+
+Natural-language resource search.
+
+These features should only be added after the core secure platform is functioning properly.
+
+---
+
+# 46. DATABASE ARCHITECTURE
+
+Use a robust relational database architecture.
+
+Core entities should include:
+
+* Users
+* Members
+* Memberships
+* Payments
+* Properties
+* Cases
+* CaseDocuments
+* Resources
+* Categories
+* Articles
+* Events
+* Registrations
+* CommunityPosts
+* CommunityComments
+* Reports
+* AdvocacySubmissions
+* Notifications
+* AuditLogs
+* Roles
+* Permissions
+
+Design the schema for future expansion.
+
+---
+
+# 47. DATA ISOLATION
+
+A critical requirement:
+
+A member's private information must never accidentally appear in:
+
+* Another member's dashboard
+* Public search
+* Community search
+* API responses
+* Analytics
+* Administrative interfaces without permission
+
+Implement authorization at the server/backend level.
+
+Do NOT rely solely on frontend hiding.
+
+---
+
+# 48. BACKUPS
+
+Implement automated encrypted backups.
+
+Maintain:
+
+* Frequent backups
+* Off-site/isolated backup strategy
+* Backup monitoring
+* Restoration testing
+* Defined retention periods
+
+A backup that has never been tested for restoration should not be considered reliable.
+
+---
+
+# 49. DEVELOPMENT APPROACH
+
+Build the platform in phases.
+
+## PHASE 1 — FOUNDATION
+
+* Branding
+* Homepage
+* Authentication
+* Membership
+* Payments
+* Member dashboard
+* Resource centre
+* Admin system
+* Security foundation
+
+## PHASE 2 — COMMUNITY
+
+* Discussion platform
+* Moderation
+* Notifications
+* Member profiles
+* Events
+
+## PHASE 3 — CASE MANAGEMENT
+
+* My Cases
+* Timelines
+* Documents
+* Private notes
+* Reminders
+
+## PHASE 4 — ADVOCACY
+
+* Issue reporting
+* Aggregated analytics
+* Advocacy centre
+* Member surveys
+
+## PHASE 5 — ADVANCED
+
+* AI search
+* AI resource assistant
+* Professional directory
+* Advanced analytics
+* Mobile app/PWA if justified
+
+---
+
+# 50. DESIGN QUALITY BAR
+
+The finished website must look like it was designed by a **top-tier international digital product studio**.
+
+Before considering the design finished, ask:
+
+"Would this look credible beside the world's best membership platforms, SaaS products and professional organizations?"
+
+If the answer is no, redesign it.
+
+Do not settle for:
+
+* Template aesthetics
+* Generic WordPress appearance
+* Cluttered pages
+* Poor mobile layouts
+* Complicated membership registration
+* Old-fashioned association design
+
+---
+
+# 51. MOST IMPORTANT USER EXPERIENCE
+
+A landlord should be able to arrive on the website and immediately answer:
+
+**"What do I do next?"**
+
+Whether they need:
+
+* Information
+* A document
+* Help understanding an issue
+* Community advice
+* Membership
+* Education
+* Advocacy
+* Professional services
+
+the path should be obvious.
+
+---
+
+# 52. FINAL PRODUCT VISION
+
+Build this as more than a website.
+
+Build it as:
+
+**THE DIGITAL HOME FOR BC LANDLORDS.**
+
+It should combine:
+
+**Membership + Knowledge Base + Community + Case Organization + Education + Advocacy + Professional Resources**
+
+inside one beautifully designed platform.
+
+The experience should be simple enough for a first-time landlord and powerful enough for a professional property owner.
+
+The guiding principle is:
+
+> **"Simple on the surface. Powerful underneath."**
+
+The platform must prioritize:
+
+**SECURITY → PRIVACY → SIMPLICITY → TRUST → USEFULNESS → COMMUNITY → GROWTH**
+
+Do not sacrifice security or privacy for convenience.
+
+Do not sacrifice simplicity by adding unnecessary features.
+
+Do not sacrifice credibility by using sensational or adversarial messaging.
+
+Build a platform that landlords will actually want to return to.
+
+# END OF PROMPT

@@ -1,0 +1,22 @@
+{
+  "name": "@lbc/domain",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./authz": "./src/authz/index.ts",
+    "./db": "./src/db/withActorTransaction.ts"
+  },
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run --passWithNoTests"
+  },
+  "dependencies": {
+    "@lbc/db": "workspace:*"
+  },
+  "devDependencies": {
+    "@lbc/config": "workspace:*",
+    "typescript": "^5.9.2"
+  }
+}
