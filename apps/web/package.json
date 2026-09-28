@@ -21,7 +21,7 @@
     "@lbc/emails": "workspace:*",
     "@lbc/search": "workspace:*",
     "@lbc/ui": "workspace:*",
-    "next": "^16.3.5",
+    "next": "^16.3.6",
     "pg": "^8.16.3",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
