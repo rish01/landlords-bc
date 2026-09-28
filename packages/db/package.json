@@ -15,7 +15,7 @@
     "auth:generate": "npx auth@1.7.5 generate --config src/auth-config.ts --output src/schema/better-auth.ts --yes"
   },
   "dependencies": {
-    "better-auth": "1.7.5",
+    "better-auth": "1.7.6",
     "drizzle-orm": "^0.45.2",
     "postgres": "^3.4.7"
   },
