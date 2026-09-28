@@ -11,7 +11,7 @@
     "test": "vitest run"
   },
   "dependencies": {
-    "pg-boss": "^12.5.4"
+    "pg-boss": "^12.34.0"
   },
   "devDependencies": {
     "@lbc/config": "workspace:*",
