@@ -21,7 +21,7 @@
   },
   "devDependencies": {
     "@lbc/config": "workspace:*",
-    "@types/node": "^24.5.2",
+    "@types/node": "^26.6.2",
     "drizzle-kit": "^0.31.10",
     "tsx": "^4.20.5",
     "typescript": "^5.9.2",
