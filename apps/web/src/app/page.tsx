@@ -22,124 +22,155 @@ import {
 export default function HomePage() {
   return (
     <PublicShell overlayHero>
-      <section className="relative isolate min-h-[85vh] overflow-hidden bg-navy-950 text-paper-0">
+      <section className="relative isolate min-h-[88vh] overflow-hidden bg-[#0a0a0a] text-white">
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_right,rgba(255,255,255,0.16),transparent_35%),radial-gradient(circle_at_center_left,rgba(148,163,184,0.18),transparent_38%)]" />
         <HeroVisual />
-        <div className="relative mx-auto flex min-h-[85vh] max-w-6xl flex-col justify-center gap-8 px-6 pt-28 pb-16">
-          <p className="text-sm font-medium tracking-[0.04em] text-accent-100 uppercase">
+        <div className="relative mx-auto flex min-h-[88vh] max-w-7xl flex-col justify-center gap-8 px-6 pb-16 pt-28 lg:px-12">
+          <p className="text-xs font-medium uppercase tracking-[0.26em] text-white/70">
             British Columbia
           </p>
-          <h1 className="text-display max-w-4xl">BC Landlords. Better Informed. Better Connected.</h1>
-          <p className="max-w-xl text-lg text-paper-1">
-            Resources, education, community and advocacy built specifically for rental-property
-            owners across British Columbia.
+          <div className="max-w-4xl">
+            <h1 className="text-[3.2rem] font-medium leading-[0.9] tracking-[-0.06em] text-white md:text-[5.4rem]">
+              BC landlords,
+              <span className="block text-white/75">simplified.</span>
+            </h1>
+          </div>
+          <p className="max-w-xl text-lg leading-8 text-white/75 md:text-xl">
+            Resources, education, community, and advocacy built for the realities of renting in
+            British Columbia.
           </p>
           <div className="flex flex-wrap gap-3">
-            <Button asChild variant="cta">
+            <Button asChild variant="cta" className="!rounded-full !px-6 !py-3 !text-base">
               <Link href="/join">Join now</Link>
             </Button>
-            <Button asChild variant="secondary">
+            <Button asChild variant="secondary" className="!rounded-full !border-white/20 !bg-white/5 !px-6 !py-3 !text-base !text-white hover:!bg-white/10">
               <Link href="/resources">Explore resources</Link>
             </Button>
           </div>
         </div>
       </section>
 
-      <main id="main">
-        <section className="border-b border-paper-2 bg-white">
-          <div className="mx-auto max-w-6xl px-6 py-12">
-            <h2 className="font-display text-2xl text-navy-900">I have a problem</h2>
-            <p className="mt-2 mb-6 max-w-2xl text-ink-500">
-              Start with the issue. We will point you to the relevant BC process, documents, and
-              official sources.
-            </p>
+      <main id="main" className="bg-[#f5f5f5] text-[#111111]">
+        <section className="border-b border-black/5 bg-white/80">
+          <div className="mx-auto max-w-7xl px-6 py-12 md:py-16 lg:px-12">
+            <div className="mb-8 flex items-end justify-between gap-4">
+              <div>
+                <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">
+                  Start here
+                </p>
+                <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+                  I have a problem.
+                </h2>
+              </div>
+            </div>
             <IssueSearch />
           </div>
         </section>
 
-        <section className="mx-auto max-w-6xl px-6 py-16">
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16 lg:px-12">
+          <div className="grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
             <Link href="/guides" className="block h-full">
               <ActionCard
-                icon={<span aria-hidden>1</span>}
-                title="I have a tenant issue"
+                icon={<span aria-hidden>01</span>}
+                title="Tenant issue"
                 description="Find the relevant BC process and a calm next step."
               />
             </Link>
             <Link href="/forms" className="block h-full">
               <ActionCard
-                icon={<span aria-hidden>2</span>}
-                title="I need a form or document"
-                description="Official forms, organization templates, and examples."
+                icon={<span aria-hidden>02</span>}
+                title="Forms & docs"
+                description="Official forms, templates, and examples."
               />
             </Link>
             <Link href="/knowledge" className="block h-full">
               <ActionCard
-                icon={<span aria-hidden>3</span>}
-                title="I need to understand the rules"
-                description="Plain-language guides to tenancy rules and processes."
+                icon={<span aria-hidden>03</span>}
+                title="Understand the rules"
+                description="Plain-language guidance on tenancy law and process."
               />
             </Link>
             <Link href="/join" className="block h-full">
               <ActionCard
-                icon={<span aria-hidden>4</span>}
-                title="I want to join the community"
-                description="Membership, discussion, and a professional peer group."
+                icon={<span aria-hidden>04</span>}
+                title="Join the community"
+                description="Membership built around professional landlord support."
               />
             </Link>
           </div>
         </section>
 
-        <section className="bg-white">
-          <div className="mx-auto grid max-w-6xl gap-10 px-6 py-16 md:grid-cols-2">
-            <div>
-              <h2 className="font-display text-3xl text-navy-900">Why join</h2>
-              <p className="mt-4 text-ink-500">
+        <section className="bg-[#ededed]">
+          <div className="mx-auto grid max-w-7xl gap-12 px-6 py-12 md:py-16 lg:grid-cols-[1.15fr_0.85fr] lg:px-12">
+            <div className="flex flex-col justify-center">
+              <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">Why join</p>
+              <h2 className="mt-4 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+                Clarity without the chaos.
+              </h2>
+              <p className="mt-5 max-w-xl text-lg leading-8 text-black/70">
                 You should not have to reconstruct the RTB site, a Facebook thread, and a folder of
                 PDFs every time rent is late.
               </p>
-              <p className="mt-3 text-ink-500">
-                Landlords BC is a professional home: education first, private documentation, and a
-                community that does not shame tenants.
-              </p>
-              <p className="mt-3 text-ink-500">
-                We earn trust by citing official sources and by refusing a public “bad tenant”
-                database.
+              <p className="mt-4 max-w-xl text-lg leading-8 text-black/70">
+                Landlords BC gives you privacy, context, and a professional community built for
+                real-world landlord problems.
               </p>
             </div>
-            <ul className="flex flex-col gap-4">
-              <li className="border-l-4 border-accent-700 bg-accent-50 px-4 py-3">
-                <strong className="text-navy-900">Privacy by design.</strong>
-                <span className="mt-1 block text-ink-500">Your cases stay yours. Staff cannot browse them in v1.</span>
-              </li>
-              <li className="border-l-4 border-navy-700 bg-paper-1 px-4 py-3">
-                <strong className="text-navy-900">Written for BC.</strong>
-                <span className="mt-1 block text-ink-500">RTA, RTB, and municipal context — not generic landlord tips.</span>
-              </li>
-              <li className="border-l-4 border-navy-700 bg-paper-1 px-4 py-3">
-                <strong className="text-navy-900">A professional community.</strong>
-                <span className="mt-1 block text-ink-500">Moderated. Evidence over venting. No tenant identifiers.</span>
-              </li>
-            </ul>
+            <div className="space-y-4">
+              <div className="rounded-[26px] border border-black/10 bg-white p-6 shadow-[0_18px_48px_rgba(17,17,17,0.08)]">
+                <p className="text-xs font-medium uppercase tracking-[0.2em] text-black/50">01</p>
+                <h3 className="mt-3 text-2xl font-medium tracking-[-0.05em] text-black">Privacy by design</h3>
+                <p className="mt-3 text-base leading-7 text-black/65">
+                  Your cases stay yours. Staff cannot browse them in v1.
+                </p>
+              </div>
+              <div className="rounded-[26px] border border-black/10 bg-white p-6 shadow-[0_18px_48px_rgba(17,17,17,0.08)]">
+                <p className="text-xs font-medium uppercase tracking-[0.2em] text-black/50">02</p>
+                <h3 className="mt-3 text-2xl font-medium tracking-[-0.05em] text-black">Written for BC</h3>
+                <p className="mt-3 text-base leading-7 text-black/65">
+                  RTA, RTB, and municipal context — not generic landlord tips.
+                </p>
+              </div>
+              <div className="rounded-[26px] border border-black/10 bg-white p-6 shadow-[0_18px_48px_rgba(17,17,17,0.08)]">
+                <p className="text-xs font-medium uppercase tracking-[0.2em] text-black/50">03</p>
+                <h3 className="mt-3 text-2xl font-medium tracking-[-0.05em] text-black">Professional community</h3>
+                <p className="mt-3 text-base leading-7 text-black/65">
+                  Moderated. Evidence over venting. No tenant identifiers.
+                </p>
+              </div>
+            </div>
           </div>
         </section>
 
-        <section className="mx-auto max-w-6xl px-6 py-16">
-          <h2 className="font-display text-3xl text-navy-900">Member benefits</h2>
-          <ul className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16 lg:px-12">
+          <div className="mb-8 flex items-end justify-between gap-4">
+            <div>
+              <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">Member benefits</p>
+              <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+                Built to feel premium.
+              </h2>
+            </div>
+          </div>
+          <ul className="grid gap-5 md:grid-cols-2 xl:grid-cols-3">
             {benefits.map((item) => (
-              <li key={item.title}>
-                <h3 className="font-medium text-navy-900">{item.title}</h3>
-                <p className="mt-2 text-ink-500">{item.body}</p>
+              <li key={item.title} className="rounded-[24px] border border-black/10 bg-white p-6 shadow-[0_12px_30px_rgba(17,17,17,0.04)]">
+                <h3 className="text-xl font-medium tracking-[-0.04em] text-black">{item.title}</h3>
+                <p className="mt-3 text-base leading-7 text-black/65">{item.body}</p>
               </li>
             ))}
           </ul>
         </section>
 
         <section className="bg-white">
-          <div className="mx-auto max-w-6xl px-6 py-16">
+          <div className="mx-auto max-w-7xl px-6 py-12 md:py-16 lg:px-12">
             <div className="mb-8 flex items-end justify-between gap-4">
-              <h2 className="font-display text-3xl text-navy-900">Featured resources</h2>
-              <Link href="/resources" className="text-sm font-medium text-accent-800">
+              <div>
+                <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">Resources</p>
+                <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+                  Featured guidance.
+                </h2>
+              </div>
+              <Link href="/resources" className="text-sm font-medium text-black underline-offset-4 hover:underline">
                 All resources
               </Link>
             </div>
@@ -149,7 +180,7 @@ export default function HomePage() {
                   <ResourceCard
                     title={item.title}
                     description={item.description}
-                    category={<span className="text-sm text-ink-500">{item.category}</span>}
+                    category={<span className="text-sm text-black/65">{item.category}</span>}
                     access={<AccessChip level={item.access} />}
                     updated={item.updated}
                   />
@@ -159,14 +190,17 @@ export default function HomePage() {
           </div>
         </section>
 
-        <section className="mx-auto grid max-w-6xl gap-12 px-6 py-16 lg:grid-cols-2">
+        <section className="mx-auto grid max-w-7xl gap-12 px-6 py-12 md:py-16 lg:grid-cols-2 lg:px-12">
           <div>
-            <h2 className="font-display text-3xl text-navy-900">Latest BC updates</h2>
-            <ul className="mt-6 divide-y divide-paper-2">
+            <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">News</p>
+            <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+              Latest BC updates.
+            </h2>
+            <ul className="mt-8 divide-y divide-black/10">
               {newsItems.map((item) => (
-                <li key={item.title} className="py-4">
-                  <p className="text-sm text-ink-400">Published {item.date}</p>
-                  <Link href={item.href} className="mt-1 block font-medium text-navy-900">
+                <li key={item.title} className="py-5">
+                  <p className="text-sm text-black/50">Published {item.date}</p>
+                  <Link href={item.href} className="mt-2 block text-lg font-medium text-black hover:text-black/75">
                     {item.title}
                   </Link>
                 </li>
@@ -174,15 +208,17 @@ export default function HomePage() {
             </ul>
           </div>
           <div>
-            <h2 className="font-display text-3xl text-navy-900">From the community</h2>
-            <p className="mt-2 text-sm text-ink-400">Editor-picked titles. Not a live member feed.</p>
-            <ul className="mt-6 flex flex-col gap-4">
+            <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">Community</p>
+            <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+              From the community.
+            </h2>
+            <ul className="mt-8 flex flex-col gap-4">
               {homepageTeasers.map((item) => (
-                <li key={item.title} className="rounded-[12px] bg-white p-5 shadow-[var(--shadow-card)]">
-                  <p className="text-xs font-medium tracking-wide text-accent-800 uppercase">
+                <li key={item.title} className="rounded-[24px] border border-black/10 bg-white p-5 shadow-[0_12px_30px_rgba(17,17,17,0.04)]">
+                  <p className="text-[0.7rem] font-medium uppercase tracking-[0.2em] text-black/50">
                     {item.topic}
                   </p>
-                  <Link href={item.href} className="mt-1 block text-navy-900">
+                  <Link href={item.href} className="mt-3 block text-lg font-medium text-black hover:text-black/75">
                     {item.title}
                   </Link>
                 </li>
@@ -192,67 +228,79 @@ export default function HomePage() {
         </section>
 
         <section className="bg-white">
-          <div className="mx-auto grid max-w-6xl gap-12 px-6 py-16 lg:grid-cols-2">
+          <div className="mx-auto grid max-w-7xl gap-12 px-6 py-12 md:py-16 lg:grid-cols-[1fr_1fr] lg:px-12">
             <div>
-              <h2 className="font-display text-3xl text-navy-900">Advocacy</h2>
-              <p className="mt-4 text-ink-500">
-                Current focus: making official process information easier to navigate so landlords
-                do not rely on rumour.
+              <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">Advocacy</p>
+              <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+                Making process easier.
+              </h2>
+              <p className="mt-5 max-w-xl text-lg leading-8 text-black/70">
+                Current focus: making official process information easier to navigate so landlords do
+                not rely on rumour.
               </p>
-              <Link href="/advocacy" className="mt-4 inline-block text-sm font-medium text-accent-800">
+              <Link href="/advocacy" className="mt-6 inline-block text-sm font-medium text-black underline-offset-4 hover:underline">
                 Read the advocacy centre
               </Link>
             </div>
             <div>
-              <h2 className="font-display text-3xl text-navy-900">Upcoming events</h2>
-              <ul className="mt-6 flex flex-col gap-3">
+              <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">Events</p>
+              <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+                Upcoming events.
+              </h2>
+              <ul className="mt-8 space-y-4">
                 {events.map((item) => (
-                  <li key={item.title}>
-                    <p className="font-medium text-navy-900">{item.title}</p>
-                    <p className="text-sm text-ink-400">{item.when}</p>
+                  <li key={item.title} className="rounded-[20px] border border-black/10 bg-[#f5f5f5] p-5">
+                    <p className="text-lg font-medium text-black">{item.title}</p>
+                    <p className="mt-1 text-sm text-black/55">{item.when}</p>
                   </li>
                 ))}
               </ul>
-              <Link href="/events" className="mt-4 inline-block text-sm font-medium text-accent-800">
+              <Link href="/events" className="mt-6 inline-block text-sm font-medium text-black underline-offset-4 hover:underline">
                 Events
               </Link>
             </div>
           </div>
         </section>
 
-        <section className="mx-auto max-w-6xl px-6 py-16">
-          <h2 className="font-display text-3xl text-navy-900">Why trust us</h2>
-          <p className="mt-3 max-w-2xl text-ink-500">
+        <section className="mx-auto max-w-7xl px-6 py-12 md:py-16 lg:px-12">
+          <div className="mb-8">
+            <p className="text-xs font-medium uppercase tracking-[0.26em] text-black/50">Trust</p>
+            <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-black md:text-5xl">
+              Why trust us.
+            </h2>
+          </div>
+          <p className="max-w-2xl text-lg leading-8 text-black/70">
             Transparent governance, a privacy commitment, source attribution, dated guides, and
             professional partnerships. We do not publish unverifiable membership stats.
           </p>
-          <Link href="/trust" className="mt-4 inline-block text-sm font-medium text-accent-800">
+          <Link href="/trust" className="mt-6 inline-block text-sm font-medium text-black underline-offset-4 hover:underline">
             Full trust page
           </Link>
           <div className="mt-10 grid gap-6 md:grid-cols-2">
             {testimonials.map((item) => (
-              <blockquote key={item.role} className="rounded-[12px] bg-white p-6 shadow-[var(--shadow-card)]">
-                <p className="text-navy-900">“{item.quote}”</p>
-                <footer className="mt-3 text-sm text-ink-400">{item.role}</footer>
+              <blockquote key={item.role} className="rounded-[24px] border border-black/10 bg-white p-6 shadow-[0_12px_30px_rgba(17,17,17,0.04)]">
+                <p className="text-lg leading-8 text-black">\"{ item.quote}\"</p>
+                <footer className="mt-4 text-sm uppercase tracking-[0.2em] text-black/50">{item.role}</footer>
               </blockquote>
             ))}
           </div>
         </section>
 
-        <section className="bg-navy-950 text-paper-0">
-          <div className="mx-auto flex max-w-6xl flex-col items-start gap-6 px-6 py-16">
-            <h2 className="font-display text-3xl">Join the BC landlord community</h2>
-            <p className="max-w-xl text-paper-1">
-              Get member access to guides, forms, and a moderated community built for rental-property
-              owners in British Columbia.
-            </p>
-            <Button asChild variant="cta">
+        <section className="bg-[#0a0a0a] text-white">
+          <div className="mx-auto flex max-w-7xl flex-col items-start gap-6 px-6 py-12 md:py-16 lg:flex-row lg:items-center lg:justify-between lg:px-12">
+            <div>
+              <p className="text-xs font-medium uppercase tracking-[0.26em] text-white/60">Join now</p>
+              <h2 className="mt-3 text-3xl font-medium tracking-[-0.06em] text-white md:text-5xl">
+                Join the BC landlord community.
+              </h2>
+            </div>
+            <Button asChild variant="cta" className="!rounded-full !px-6 !py-3 !text-base !bg-white !text-black hover:!bg-[#eaeaea]">
               <Link href="/join">Join now</Link>
             </Button>
           </div>
         </section>
 
-        <div className="mx-auto max-w-6xl px-6 py-10">
+        <div className="mx-auto max-w-7xl px-6 py-10 lg:px-12">
           <Callout>{LEGAL_DISCLAIMER}</Callout>
         </div>
       </main>
